@@ -5,10 +5,13 @@
 <meta charset="utf-8"> 
 <meta name="viewport" content="width=device-width, intitial-scale-1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<style>
+	
+</style>
 
 </head> 
 <body> 
-	<div class="container center-block text-center" style="height: 190px; width: 200px; margin-top: 200px; margin-bottom: 200px; border: 1px solid #ded8d8; border-radius: 5px;"> 
+	<div class="container center-block text-center" style="height: 190px; width: 200px; margin-top: 200px; margin-bottom: 200px; border-radius: 5px;"> 
 		<div class="row">
 				
 					<?php 
@@ -24,10 +27,9 @@
 				$sql_exe = $conn -> query($sql); 
 
 				if($sql_exe) { 
-				echo "<br><br>Delete complete <br>"; 
-				echo "Delete ID ".$id; 
-				echo "<br>";
-				echo "THB ".$thb; 
+				echo "<br><br><strong>Delete complete</strong><br>"; 
+				echo "ID ".$id; 
+				echo " THB ".$thb; 
 				header("Refresh:,url=index.php",true,5); 
 				}else{ 
 				echo "Delete failed"; 
@@ -36,7 +38,7 @@
 
 				?> 
 
-				<br><br><a href="index.php?" style="margin-top: 200px; border:1px solid #eee; border-radius: 5px; padding: 10px;">BACK</a> 
+				<br><br><a href="index.php?" style=" color:#fff; margin-top: 200px; background-color: #e2383f;  border-radius: 5px; padding: 20px;">BACK</a> 
 
 				</div>
 

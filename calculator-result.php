@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-md-12">
 
-				<h1 class="text-center"><br>Result</h1>
+				<h1 class="text-center" style="color: #e2383f;"><br>Result</h1>
 <?php
 
  	//1.รับค่จากหน้าที่แล้วมา ส่งค่ามาเป็น POST
@@ -96,14 +96,14 @@
 
 ?>
 
-					<table class="table table-dark">
+					<table class="table table-bordered">
 					    <thead>
 					        <tr>
-					            <th>Price</th>
-					            <th>Exchange</th>
-					            <th>Currency</th>
-					            <th>Datetime</th>
-					            <th>Delete</th>
+					            <th>ราคา</th>
+					            <th>แลกเปลี่ยน</th>
+					            <th>สกุลเงิน</th>
+					            <th>วัน เวลา</th>
+					            <th>ทำการลบ</th>
 					        </tr>
 					    </thead>
 					     
